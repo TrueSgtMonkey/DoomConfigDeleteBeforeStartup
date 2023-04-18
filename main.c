@@ -24,6 +24,7 @@ int main()
     }
 
     printf("Deleting Configs\n");
+    printf("new change\n");
 
     // Deleting stupid config files before starting Doom Eternal up
     deleteCommand.pusharr(&deleteCommand, "del /F /Q ");
